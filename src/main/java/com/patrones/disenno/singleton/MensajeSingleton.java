@@ -17,7 +17,8 @@ public class MensajeSingleton {
 	
 	
 
-	public MensajeSingleton() {
+	private MensajeSingleton() {
+		// Constructor privado para evitar la creación directa de instancias
 		super();
 		this.listMensajes = new ArrayList<String>();
 	}
