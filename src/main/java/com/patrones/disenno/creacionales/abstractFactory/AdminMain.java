@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.patrones.disenno.abstractFactory;
+package com.patrones.disenno.creacionales.abstractFactory;
 
 /**
  * 

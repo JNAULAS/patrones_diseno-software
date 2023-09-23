@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.patrones.disenno.prototype;
+package com.patrones.disenno.creacionales.prototype;
 
 /**
  * 

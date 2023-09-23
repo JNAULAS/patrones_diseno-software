@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.patrones.disenno.singleton;
+package com.patrones.disenno.creacionales.singleton;
 
 /**
  * 

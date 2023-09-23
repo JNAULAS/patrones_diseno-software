@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.patrones.disenno.factoryMethod;
+package com.patrones.disenno.creacionales.factoryMethod;
 
 /**
  * 
