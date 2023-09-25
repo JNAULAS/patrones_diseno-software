@@ -14,7 +14,7 @@ public class AdminBridgeMain {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		CorreoApp app = new CorreoApp(new Outlook());
+		CorreoApp app = new CorreoApp(new Gmail());
 		app.verificarIdentificador();
 		app.enviarCorreo();
 		
