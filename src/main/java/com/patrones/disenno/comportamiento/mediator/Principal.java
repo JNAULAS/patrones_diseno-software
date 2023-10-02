@@ -11,5 +11,7 @@ public class Principal {
 		afiliado1.derivarEspecialista();
 		afiliado2.derivarEspecialista();
 		afiliado3.examenesMedicos();
+		afiliado2.reagendarCita();
+		afiliado1.cancelarCita();
 	}
 }
