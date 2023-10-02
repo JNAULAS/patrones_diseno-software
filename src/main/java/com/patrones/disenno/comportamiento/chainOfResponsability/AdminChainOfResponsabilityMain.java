@@ -14,14 +14,14 @@ public class AdminChainOfResponsabilityMain {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		RequestChainOfResponsability requestChainOfResponsability = new RequestChainOfResponsability();
-		requestChainOfResponsability.setMontoRembolso(600);
+		requestChainOfResponsability.setMontoRembolso(1150);
 		
 		ManejadorSupervisor manejadorSupervisor = new ManejadorSupervisor();
 		ManejadorGerente manejadorGerente = new ManejadorGerente();
 		ManejadorDuenno manejadorDuenno = new ManejadorDuenno();
 		
 		manejadorSupervisor.setSiguienteManejadorRembolso(manejadorGerente);
-		manejadorSupervisor.setSiguienteManejadorRembolso(manejadorDuenno);
+		manejadorGerente.setSiguienteManejadorRembolso(manejadorDuenno);
 		
 		manejadorSupervisor.manjeadorSolicitudes(requestChainOfResponsability);
 		System.out.println(requestChainOfResponsability.getResultadoRembolso());
